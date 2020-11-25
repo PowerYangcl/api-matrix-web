@@ -1,0 +1,15 @@
+<template>
+    <div class="container">
+        <el-select class="select" v-model="year" placeholder="请选择年份" @change="changeFn">
+            <el-option v-for="item in yearData" :key="item" :label="item" :value="item"></el-option>
+        </el-select>
+
+        <el-select class="select" v-model="month" placeholder="请选择月份" @change="changeFn">
+            <el-option v-for="item in monthData" :key="item" :label="item" :value="item"></el-option>
+        </el-select>
+
+        <div  style=" margin-top: 10px">sugar|pom1| index.vue</div>
+
+        <div ref="chart" style="height: 600px; width: 100%; margin-top: 50px"></div>
+    </div>
+</template>

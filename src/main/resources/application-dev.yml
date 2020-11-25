@@ -1,0 +1,27 @@
+#日常环境
+
+##配置sql打印日志
+logging:
+  level:
+    com.matrix.dao.jira: debug
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

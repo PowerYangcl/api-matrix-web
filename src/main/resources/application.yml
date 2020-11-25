@@ -1,0 +1,7 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: "GMT+8"
