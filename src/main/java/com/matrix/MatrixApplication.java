@@ -1,10 +1,10 @@
 package com.matrix;
 
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.boot.web.servlet.ServletComponentScan;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+//import org.springframework.boot.web.servlet.ServletComponentScan;
 
 
 /**
@@ -15,12 +15,12 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @version 1.0.0.1
  */
 //@Import(SpringUtil.class)
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-@ServletComponentScan({"com.matrix.servlet"})   // 启动器启动时，扫描指定目录带有的@WebServlet、@WebFilter和@WebListener注解的注册类
+//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+//@ServletComponentScan({"com.matrix.servlet"})   // 启动器启动时，扫描指定目录带有的@WebServlet、@WebFilter和@WebListener注解的注册类
 public class MatrixApplication {
 	
     public static void main(String[] args) {
-        SpringApplication.run(MatrixApplication.class, args);
+//        SpringApplication.run(MatrixApplication.class, args);
     }
 
 }
