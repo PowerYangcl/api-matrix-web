@@ -15,25 +15,3 @@ public class Wife {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class aaa{
-	
-}

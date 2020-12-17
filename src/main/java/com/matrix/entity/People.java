@@ -27,4 +27,11 @@ public class People {
 	public void setDog(Dog dog) {
 		this.dog = dog;
 	}
+    public void beanInit(){
+        System.out.println("Bean 初始化方法被调用");
+    }
+    public void beanDestroy(){
+        System.out.println("Bean 销毁方法被调用");
+    }
+
 }
