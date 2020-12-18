@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
+//@Configuration
 public class BeanProfileApplication {
 	public static void main(String[] args) {
-		 AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 		context.getEnvironment().setActiveProfiles("cat-lover");
 		context.register(BeanProfileApplication.class);
 		context.refresh();
