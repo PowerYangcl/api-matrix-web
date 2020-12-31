@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     	<spring-boot.version>2.1.6.RELEASE</spring-boot.version>
 
-        <fastjson.version>1.2.68</fastjson.version>
+        <fastjson.version>1.2.75</fastjson.version>
         <httpcomponents.version>4.5.5</httpcomponents.version>
         <dom4j.version>1.6.1</dom4j.version>
         <commons-lang3.version>3.2.1</commons-lang3.version>
@@ -45,6 +45,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+        <dependency>
+		    <groupId>cglib</groupId>
+		    <artifactId>cglib</artifactId>
+		    <version>3.3.0</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
         
     </dependencies>
