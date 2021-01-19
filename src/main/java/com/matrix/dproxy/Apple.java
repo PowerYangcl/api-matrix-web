@@ -11,5 +11,5 @@ public class Apple {
 	private String color;
 	private Integer size;	// 重量大小
 	private String type;  // 苹果、橙子或其他
-	private Boolean ripeFruit;  // 是否成熟
+	private Boolean ripeFruit;  // 是否成熟 
 }
