@@ -1,6 +1,7 @@
 package com.matrix.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.*;
 
 import com.matrix.service.ICountryService;
@@ -12,7 +13,7 @@ public class CountryController {
     private ICountryService countryService;
     
     @GetMapping(value = "/homeland")
-    public String getInfo(String homeland) {
+    public String getInfo(String homeland , HttpRequest request) {
     	return countryService.homeland(homeland);
     }
 }
