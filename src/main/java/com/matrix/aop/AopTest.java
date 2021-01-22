@@ -8,6 +8,6 @@ public class AopTest {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		IUserService bean = context.getBean("userService", IUserService.class);
 //		bean.add();
-		bean.delete("msg");
+		bean.delete("马云");
 	}
 }

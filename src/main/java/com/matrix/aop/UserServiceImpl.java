@@ -6,8 +6,8 @@ public class UserServiceImpl implements IUserService {
 		return "finished";
 	}
 	
-	public boolean delete(Object agrs) {
-		System.out.println("delete() 删除完成");
+	public boolean delete(Object args) {
+		System.out.println("delete() 删除完成，参数：" + args);
 		return true;
 	}
 }
