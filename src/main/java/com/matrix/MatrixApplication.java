@@ -18,11 +18,14 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @version 1.0.0.1
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-//@ServletComponentScan({"com.matrix.servlet"})   // 启动器启动时，扫描指定目录带有的@WebServlet、@WebFilter和@WebListener注解的注册类
 public class MatrixApplication {
 	
     public static void main(String[] args) {
-        SpringApplication.run(MatrixApplication.class, args);
+    	try {
+    		SpringApplication.run(MatrixApplication.class, args);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
     }
 
 }
