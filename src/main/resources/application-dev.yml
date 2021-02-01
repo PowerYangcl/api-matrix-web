@@ -6,9 +6,9 @@ spring:
     matrix:  # 数据源1
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://117.50.127.49:13306/matrix_system?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=Hongkong
-      username: nrcpuser
-      password: Nrcp123$
+      url: jdbc:mysql://127.0.0.1:3306/matrix?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=Hongkong
+      username: root
+      password: XianYue1998@
 
 
 

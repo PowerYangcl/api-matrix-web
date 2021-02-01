@@ -23,6 +23,7 @@ public class MatrixApplication {
     public static void main(String[] args) {
     	try {
     		SpringApplication.run(MatrixApplication.class, args);
+    		System.out.println("项目启动完成");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
