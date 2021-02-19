@@ -12,9 +12,11 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  * @description: 项目入口
- *
+ * 
  * @author Yangcl
  * @date 2020年5月9日 上午10:30:54 
+ * @home https://github.com/PowerYangcl
+ * @path api-matrix-web / com.matrix.MatrixApplication.java
  * @version 1.0.0.1
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
