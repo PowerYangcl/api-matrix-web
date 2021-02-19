@@ -23,7 +23,7 @@ public class MatrixApplication {
     public static void main(String[] args) {
     	try {
     		SpringApplication.run(MatrixApplication.class, args);
-    		System.out.println("项目启动完成");
+    		System.err.println("项目启动完成");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -34,7 +34,16 @@ public class MatrixApplication {
 //@ComponentScan({"com.ziroom.controller","com.ziroom.service"})  // ,"com.ziroom.dao" , 开启多数据源不要扫描指定包，否则会导致DataSourceJiraConfig内的不扫描
 
 
-
+/**
+ * http://localhost:8080/cache/ajax_btn_reset_cache?prefix=McRole&type=dict&key=matrixEr&jsonStr=sweq
+ * http://localhost:8080/cache/ajax_btn_get_cache?prefix=McRole&type=dict&key=matrixEr
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
 
 

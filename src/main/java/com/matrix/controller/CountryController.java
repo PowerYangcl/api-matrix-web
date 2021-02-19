@@ -13,7 +13,7 @@ public class CountryController {
     private ICountryService countryService;
     
     @GetMapping(value = "/homeland")
-    public String getInfo(String homeland , HttpRequest request) {
+    public String getInfo(String homeland) {
     	return countryService.homeland(homeland);
     }
 }

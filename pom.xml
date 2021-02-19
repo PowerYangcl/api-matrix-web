@@ -21,7 +21,7 @@
     <dependencies>
     	<dependency>
 			<groupId>com.matrix</groupId>
-			<artifactId>matrix-core</artifactId>
+			<artifactId>matrix-cache</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		
