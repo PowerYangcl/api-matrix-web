@@ -19,9 +19,14 @@
     </properties>
 
     <dependencies>
-    	<dependency>
+		<dependency>
 			<groupId>com.matrix</groupId>
-			<artifactId>matrix-cache</artifactId>
+			<artifactId>matrix-permissions</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.matrix</groupId>
+			<artifactId>matrix-web-adapter</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		
